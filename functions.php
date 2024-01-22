@@ -299,6 +299,9 @@ add_filter( 'get_the_archive_title', 'sparkling_archive_pages_title' );
  */
 function sparkling_scripts() {
 
+	// Add JDS fonts
+	wp_enqueue_style( 'jds-fonts', get_template_directory_uri() . '/assets/css/jds-fonts.css' );
+
 	// Add Bootstrap default CSS
 	wp_enqueue_style( 'sparkling-bootstrap', get_template_directory_uri() . '/assets/css/bootstrap.min.css' );
 

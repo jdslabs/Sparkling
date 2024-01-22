@@ -1,0 +1,160 @@
+/* PF Din */
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-ExtraThin.otf);
+  font-weight: 100;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-ExtraThinItalic.otf);
+  font-weight: 100;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-Thin.otf);
+  font-weight: 200;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-ThinItalic.otf);
+  font-weight: 200;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-Light.otf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-LightItalic.otf);
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-Regular.otf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-Italic.otf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-Medium.otf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-MediumItalic.otf);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-Bold.otf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-BoldItalic.otf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-Black.otf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "PFDin";
+  src: url(../fonts/PFDin/PFDinDisplayPro-BlackItalic.otf);
+  font-weight: 900;
+  font-style: italic;
+}
+
+
+/* Bulo */
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-Light.ttf);
+  font-weight: 300;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-LightItalic.ttf);
+  font-weight: 300;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-Regular.ttf);
+  font-weight: 400;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-RegularItalic.ttf);
+  font-weight: 400;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-Medium.ttf);
+  font-weight: 500;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-MediumItalic.ttf);
+  font-weight: 500;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-Bold.ttf);
+  font-weight: 700;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-BoldItalic.ttf);
+  font-weight: 700;
+  font-style: italic;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-Black.ttf);
+  font-weight: 900;
+}
+
+@font-face {
+  font-family: "Bulo";
+  src: url(../fonts/Bulo/Bulo-BlackItalic.ttf);
+  font-weight: 900;
+  font-style: italic;
+}
