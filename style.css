@@ -49,7 +49,7 @@ html {
 }
 
 body {
-  color: #6b6b6b;
+  color: #4E4E5E;
   background-color: #f2f2f2;
   word-wrap: break-word;
   font-family: 'Bulo', sans-serif;
@@ -358,11 +358,16 @@ textarea {
 /* =Post styling
 ----------------------------------------------- */
 .entry-meta a {
-  font-size: 13px;
+  font-size: 12px;
   color: #6b6b6b;
+  text-transform: uppercase;
+  font-family: 'PFDin', serif;
+  letter-spacing: 0.2em;
+  margin-left: 10px;
 }
 
 .entry-meta {
+  color: #AFAFBC;
   margin-bottom: 30px;
 }
 
@@ -377,36 +382,45 @@ footer.entry-meta {
 }
 
 .entry-meta {
-  font-size: 14px;
+  font-size: 12px;
   margin-right: 3px;
 }
 
 .entry-meta span {
-  margin-right: 10px;
+  margin-right: 20px;
 }
 
 .entry-title {
-  color: #444;
-  font-size: 28px;
-  margin-bottom: 30px;
+  color: #1D1D28;
+  font-family: 'Bulo', sans-serif;
+  font-size: 32px;
+  font-weight: 900;
+  margin-bottom: 14px;
 }
 
 .entry-title a {
-  color: #444;
+  color: #1D1D28;
 }
 
 .entry-title a:hover,
 .entry-title a:focus {
-  color: #da4453;
+  color: #FF423E;
 }
 
 .btn.btn-default.read-more,
 a.more-link {
-  float: right;
-  margin-top: 10px;
+  font-family: 'PFDin', serif;
   font-size: 12px;
-  padding: 11px 13px;
-  border-radius: 4px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  margin-top: 24px;
+  padding: 14px 18px 12px;
+  border-radius: 2px;
+}
+
+.btn.btn-default.read-more:focus,
+a.more-link:focus {
+  color: #ffffff;
 }
 
 .search .entry-summary > p:last-child:after {
@@ -452,11 +466,16 @@ hr.section-divider {
   margin-bottom: 50px;
 }
 
+.blog-item-wrap {
+  border-radius: 2px;
+  overflow: hidden;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.05);
+}
+
 .post-inner-content {
-  padding: 45px 50px;
+  padding: 40px 40px 48px;
   background-color: #fff;
-  border: 1px solid #dadada;
-  border-top: none;
+  border: 0;
 }
 
 body.archive .post-inner-content,

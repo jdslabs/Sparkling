@@ -450,6 +450,8 @@ $typography_options = array(
 		'palatino'       => 'Palatino',
 		'helvetica'      => 'Helvetica',
 		'Helvetica Neue' => 'Helvetica Neue,Helvetica,Arial,sans-serif',
+		'bulo'           => 'Bulo',
+		'pfdin'          => 'PFDin',
 	),
 	'styles' => array(
 		'normal' => 'Normal',
