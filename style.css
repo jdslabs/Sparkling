@@ -43,6 +43,11 @@ sparkling is based on Underscores http://underscores.me/, (C) 2012-2015 Automatt
 
 /* =Global
 ----------------------------------------------- */
+html {
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
 body {
   color: #6b6b6b;
   background-color: #f2f2f2;
@@ -1059,10 +1064,10 @@ button:focus,
 }
 
 .navbar.navbar-default {
-  background-color: #363636;
-  font-family: 'Open Sans', serif;
+  background-color: #1F1F22;
+  font-family: 'PFDin', serif;
   margin-bottom: 0;
-  font-weight: 500;
+  font-weight: 400;
 }
 
 .navbar-default .navbar-nav > li > a {
@@ -1072,11 +1077,34 @@ button:focus,
   font-size: 12px;
 }
 
-.navbar > .container .navbar-brand {
-  color: #dadada;
-  font-size: 20px;
-  margin: 10px 0;
-  font-family: 'Roboto Slab', serif;
+.navbar .navbar-brand {
+  color: #ffffff;
+  font-size: 18px;
+  font-family: 'PFDin', serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  text-transform: uppercase;
+  display: flex;
+  align-items: center;
+  height: auto;
+  padding: 1.2rem 6rem 1.2rem 2rem;
+  border-right: 1px solid #2F2F3D;
+}
+
+@media (max-width: 767px) {
+  .navbar .navbar-brand {
+    border-right: 0;
+  }
+}
+
+.navbar .navbar-brand:hover {
+  color: #ffffff;
+}
+
+.navbar .navbar-brand svg {
+  width: 3.2rem;
+  height: 3.2rem;
+  margin-right: 1.6rem;
 }
 
 .navbar-default .navbar-nav > .open > a,
@@ -1297,7 +1325,6 @@ button:focus,
 }
 
 .navbar-nav > li {
-  padding: 15px;
   color: #f5f7fa;
 }
 
@@ -1318,17 +1345,132 @@ button:focus,
   color: #da4453;
 }
 
-.navbar-default .navbar-toggle:hover,
-.navbar-default .navbar-toggle:focus {
-  background-color: #363636;
+.navbar-default .navbar-toggle {
+  padding: 11px 10px;
 }
 
+.navbar-default .navbar-toggle:active {
+  transform: translate3d(1px, 1px, 0);
+}
+
+.navbar-default .navbar-toggle:hover,
+.navbar-default .navbar-toggle:focus {
+  background-color: #313131;
+  outline: 0;
+}
+
+.navbar-default .navbar-toggle .icon-bar,
 .navbar-default .navbar-toggle:focus span {
-  background: #fff;
+  background-color: #F1F1F1;
 }
 
 .nav.navbar-nav {
-  float: right;
+  margin-left: 3.2rem;
+  display: flex;
+  align-items: center;
+}
+
+@media (max-width: 767px) {
+  .nav.navbar-nav {
+    margin-left: 0;
+    margin-right: 0;
+    flex-direction: column;
+    align-items: start;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .nav.navbar-nav {
+    margin-left: 0;
+  }
+}
+
+.navbar-default {
+  position: relative;
+}
+
+.navbar-default .navbar-nav > li {
+  height: 56px;
+  position: static;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav > li {
+    width: 100%;
+  }
+}
+
+.navbar-default .navbar-nav > li > a {
+  line-height: 1.2;
+  padding-left: 4rem;
+  padding-right: 4rem;
+  font-size: 16px;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
+  border-bottom: 4px solid transparent;
+  display: flex;
+  align-items: center;
+  padding-top: 0.8rem;
+  height: 100%;
+  transition: border-color 0.15s cubic-bezier(.4,0,.2,1);
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav > li > a {
+    padding: 0 0 0 5.2rem;
+    border: 0;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar-default .navbar-nav > li > a {
+    font-size: 12px;
+    padding-left: 2rem;
+    padding-right: 2rem;
+  }
+}
+
+.navbar-default .navbar-nav > li > a:hover {
+  color: #ffffff;
+  border-color: #FF423E;
+}
+
+@media (max-width: 767px) {
+  .navbar-default .navbar-nav > li > a:hover,
+  .navbar-default .navbar-nav > li > a:focus {
+    background-color: #484b4d;
+    border-radius: 4px;
+  }
+}
+
+.navbar-collapse {
+  border-top: 0;
+}
+
+/* Style special "Shop" button in desktop navigation based on a link like <a title="Shop"></a> */
+
+@media (min-width: 768px) {
+  .navbar-default .navbar-nav > li > a[title="Shop"] {
+    position: absolute;
+    top: 0;
+    right: 0;
+    height: 100%;
+    color: #ffffff;
+    background-color: #FF423E;
+    display: flex;
+    align-items: center;
+    font-weight: bold;
+    padding-left: 3.2rem;
+    padding-right: 3.2rem;
+    letter-spacing: 0.2em;
+    text-transform: uppercase;
+  }
+}
+
+@media (min-width: 768px) and (max-width: 1023px) {
+  .navbar-default .navbar-nav > li > a[title="Shop"] {
+    font-size: 12px;
+  }
 }
 
 @media (max-width: 767px) {
