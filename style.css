@@ -404,7 +404,7 @@ footer.entry-meta {
 
 .entry-title a:hover,
 .entry-title a:focus {
-  color: #FF423E;
+  color: #D81713;
 }
 
 .btn.btn-default.read-more,
@@ -641,7 +641,7 @@ object {
 
 .widget ul li {
   list-style: none;
-  border-bottom: 1px solid #f2f2f2;
+  border-bottom: 1px solid #F1F1F1;
 }
 
 .widget_nav_menu ul li {
@@ -665,7 +665,7 @@ object {
 .widget ul {
   padding: 0;
   line-height: 18px;
-  font-size: 14px;
+  font-size: 16px;
 }
 
 .widget ul.nav.nav-tabs {
@@ -674,12 +674,16 @@ object {
 
 #secondary .widget {
   margin-bottom: 48px;
-  color: #c1c0c0;
+  color: #AFAFBC;
   overflow: hidden;
 }
 
 #secondary .widget:last-child {
   margin-bottom: 0px;
+}
+
+.comment-author-link {
+  font-weight: 500;
 }
 
 .tab-content ul li {
@@ -718,6 +722,14 @@ object {
   border: 0;
 }
 
+.well .widget ul li {
+  padding-bottom: 12px;
+}
+
+.well .widget ul li:not(:first-child) {
+  padding-top: 12px;
+}
+
 #secondary .widget > h3 {
   font-family: 'PFDin', serif;
   font-size: 14px;
@@ -730,12 +742,7 @@ object {
 }
 
 #secondary .widget a {
-  color: #c1c0c0;
-}
-
-#secondary .widget a:hover,
-#secondary .widget a:focus {
-  color: #da4453;
+  color: #AFAFBC;
 }
 
 .widget ul ul {
