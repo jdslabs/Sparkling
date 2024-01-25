@@ -642,8 +642,6 @@ object {
 .widget ul li {
   list-style: none;
   border-bottom: 1px solid #f2f2f2;
-  margin-bottom: 10px;
-  padding-bottom: 10px;
 }
 
 .widget_nav_menu ul li {
@@ -675,7 +673,7 @@ object {
 }
 
 #secondary .widget {
-  margin-bottom: 50px;
+  margin-bottom: 48px;
   color: #c1c0c0;
   overflow: hidden;
 }
@@ -2016,7 +2014,7 @@ p.logged-in-as {
 /* =Social icons
 ----------------------------------------------- */
 #secondary .widget .social-icons a {
-  color: #fff;
+  color: #1D1D28;
 }
 
 .social-icons,
@@ -2034,21 +2032,11 @@ p.logged-in-as {
 }
 
 .social-icons a {
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 24px;
   list-style: none;
   display: inline-block;
   text-align: center;
-  height: 40px;
-  width: 40px;
   margin-right: 5px;
-  margin-bottom: 5px;
-  border-radius: 3px;
-  background-color: #dadada;
-  -webkit-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
-  transition: background-color 0.5s;
 }
 
 #menu-social li {
@@ -2058,20 +2046,11 @@ p.logged-in-as {
 }
 
 .social-icons li a {
-  font-size: 18px;
-  line-height: 40px;
+  font-size: 24px;
+  line-height: 1;
   list-style: none;
   display: inline-block;
-  text-align: center;
-  height: 40px;
-  width: 40px;
-  margin-right: 5px;
-  margin-bottom: 5px;
-  border-radius: 3px;
-  background-color: #dadada;
-  -webkit-transition: background-color 0.5s;
-  -moz-transition: background-color 0.5s;
-  -o-transition: background-color 0.5s;
+  margin-right: 12px;
   transition: background-color 0.5s;
 }
 
@@ -2093,311 +2072,310 @@ p.logged-in-as {
 
 #menu-social li a[href*='facebook.com']:hover,
 #menu-social li a[href*='facebook.com']:focus {
-  background-color: #4265b9 !important;
+  color: #4265b9 !important;
 }
 
 #menu-social li a[href*='docker.com']:hover,
 #menu-social li a[href*='docker.com']:focus {
-  background-color: #0d397f !important;
+  color: #0d397f !important;
 }
 
 #menu-social li a[href*='academia.edu']:hover,
 #menu-social li a[href*='academia.edu']:focus {
-  background-color: #fff !important;
+  color: #fff !important;
   color: #000 !important;
 }
 
 #menu-social li a[href*='youracclaim.com']:hover,
 #menu-social li a[href*='youracclaim.com']:focus {
-  background-color: #2b6c97 !important;
+  color: #2b6c97 !important;
 }
 
 #menu-social li a[href*='youracclaim.com']:hover,
 #menu-social li a[href*='youracclaim.com']:focus {
-  background-color: #2b6c97 !important;
+  color: #2b6c97 !important;
 }
 
 #menu-social li a[href*='acm.org']:hover,
 #menu-social li a[href*='acm.org']:focus {
-  background-color: #42a6d5 !important;
+  color: #42a6d5 !important;
 }
 
 #menu-social li a[href*='dl.acm.org']:hover,
 #menu-social li a[href*='dl.acm.org']:focus {
-  background-color: #aec85c !important;
+  color: #aec85c !important;
 }
 
 #menu-social li a[href*='arxiv.org']:hover,
 #menu-social li a[href*='arxiv.org']:focus {
-  background-color: #68645b !important;
+  color: #68645b !important;
 }
 
 #menu-social li a[href*='biorxiv.org']:hover,
 #menu-social li a[href*='biorxiv.org']:focus {
-  background-color: #b92b3d !important;
+  color: #b92b3d !important;
 }
 
 #menu-social li a[href*='ceur-ws.org']:hover,
 #menu-social li a[href*='ceur-ws.org']:focus {
-  background-color: #f5f4ef !important;
+  color: #f5f4ef !important;
 }
 
 #menu-social li a[href*='coursera.org']:hover,
 #menu-social li a[href*='coursera.org']:focus {
-  background-color: #508dd6 !important;
+  color: #508dd6 !important;
 }
 
 #menu-social li a[href*='dataverse.org']:hover,
 #menu-social li a[href*='dataverse.org']:focus {
-  background-color: #c25b37 !important;
+  color: #c25b37 !important;
 }
 
 #menu-social li a[href*='dblp.uni-trier.de']:hover,
 #menu-social li a[href*='dblp.uni-trier.de']:focus {
-  background-color: #12539b !important;
+  color: #12539b !important;
 }
 
 #menu-social li a[href*='depsy.org']:hover,
 #menu-social li a[href*='depsy.org']:focus {
-  background-color: #2bb0e9 !important;
+  color: #2bb0e9 !important;
 }
 
 #menu-social li a[href*='doi.org']:hover,
 #menu-social li a[href*='doi.org']:focus {
-  background-color: #f8b248 !important;
+  color: #f8b248 !important;
 }
 
 #menu-social li a[href*='datadryad.org']:hover,
 #menu-social li a[href*='datadryad.org']:focus {
-  background-color: #44822c !important;
+  color: #44822c !important;
 }
 
 #menu-social li a[href*='figshare.com']:hover,
 #menu-social li a[href*='figshare.com']:focus {
-  background-color: #556470 !important;
+  color: #556470 !important;
 }
 
 #menu-social li a[href*='scholar.google']:hover,
 #menu-social li a[href*='scholar.google']:focus {
-  background-color: #4a8bee !important;
+  color: #4a8bee !important;
 }
 
 #menu-social li a[href*='ideas.repec.org']:hover,
 #menu-social li a[href*='ideas.repec.org']:focus {
-  background-color: #f61729 !important;
+  color: #f61729 !important;
 }
 
 #menu-social li a[href*='ieee.org']:hover,
 #menu-social li a[href*='ieee.org']:focus {
-  background-color: #166895 !important;
+  color: #166895 !important;
 }
 
 #menu-social li a[href*='impactstory.org']:hover,
 #menu-social li a[href*='impactstory.org']:focus {
-  background-color: #f9362a !important;
+  color: #f9362a !important;
 }
 
 #menu-social li a[href*='inspirehep.net']:hover,
 #menu-social li a[href*='inspirehep.net']:focus {
-  background-color: #6b9cc8 !important;
+  color: #6b9cc8 !important;
 }
 
 #menu-social li a[href*='lattes.cnpq.brt']:hover,
 #menu-social li a[href*='lattes.cnpq.brt']:focus {
-  background-color: #135c95 !important;
+  color: #135c95 !important;
 }
 
 #menu-social li a[href*='mathoverflow.net']:hover,
 #menu-social li a[href*='mathoverflow.net']:focus {
-  background-color: #de8341 !important;
+  color: #de8341 !important;
 }
 
 #menu-social li a[href*='mendeley.com']:hover,
 #menu-social li a[href*='mendeley.com']:focus {
-  background-color: #fff !important;
   color: #000 !important;
 }
 
 #menu-social li a[href*='openaccessweek.org']:hover,
 #menu-social li a[href*='openaccessweek.org']:focus {
-  background-color: #f17e3c !important;
+  color: #f17e3c !important;
 }
 
 #menu-social li a[href*='orcid.org']:hover,
 #menu-social li a[href*='orcid.org']:focus {
-  background-color: #a8ca50 !important;
+  color: #a8ca50 !important;
 }
 
 #menu-social li a[href*='osf.io']:hover,
 #menu-social li a[href*='osf.io']:focus {
-  background-color: #3fbaeb !important;
+  color: #3fbaeb !important;
 }
 
 #menu-social li a[href*='overleaf.com']:hover,
 #menu-social li a[href*='overleaf.com']:focus {
-  background-color: #4d8f4a !important;
+  color: #4d8f4a !important;
 }
 
 #menu-social li a[href*='philpapers.org']:hover,
 #menu-social li a[href*='philpapers.org']:focus {
-  background-color: #1650a3 !important;
+  color: #1650a3 !important;
 }
 
 #menu-social li a[href*='piazza.com']:hover,
 #menu-social li a[href*='piazza.com']:focus {
-  background-color: #407da8 !important;
+  color: #407da8 !important;
 }
 
 #menu-social li a[href*='publons.com']:hover,
 #menu-social li a[href*='publons.com']:focus {
-  background-color: #386895 !important;
+  color: #386895 !important;
 }
 
 #menu-social li a[href*='ncbi.nlm.nih.gov']:hover,
 #menu-social li a[href*='ncbi.nlm.nih.gov']:focus {
-  background-color: #d5d5d5 !important;
+  color: #d5d5d5 !important;
 }
 
 #menu-social li a[href*='researchgate.net']:hover,
 #menu-social li a[href*='researchgate.net']:focus {
-  background-color: #30cabb !important;
+  color: #30cabb !important;
 }
 
 #menu-social li a[href*='researcherid.com']:hover,
 #menu-social li a[href*='researcherid.com']:focus {
-  background-color: #ea7b32 !important;
+  color: #ea7b32 !important;
 }
 
 #menu-social li a[href*='scirate.com']:hover,
 #menu-social li a[href*='scirate.com']:focus {
-  background-color: #3299f3 !important;
+  color: #3299f3 !important;
 }
 
 #menu-social li a[href*='semanticscholar.org']:hover,
 #menu-social li a[href*='semanticscholar.org']:focus {
-  background-color: #fbd669 !important;
+  color: #fbd669 !important;
 }
 
 #menu-social li a[href*='springer.com']:hover,
 #menu-social li a[href*='springer.com']:focus {
-  background-color: #ea7d33 !important;
+  color: #ea7d33 !important;
 }
 
 #menu-social li a[href*='zotero.org']:hover,
 #menu-social li a[href*='zotero.org']:focus {
-  background-color: #c82e3e !important;
+  color: #c82e3e !important;
 }
 
 #menu-social li a[href*='twitter.com']:hover,
 #menu-social li a[href*='twitter.com']:focus {
-  background-color: #55acee !important;
+  color: #000000 !important;
 }
 
 #menu-social li a[href*='dribbble.com']:hover,
 #menu-social li a[href*='dribbble.com']:focus {
-  background-color: #ea4c89 !important;
+  color: #ea4c89 !important;
 }
 
 #menu-social li a[href*='flickr.com']:hover,
 #menu-social li a[href*='flickr.com']:focus {
-  background-color: #ff0084 !important;
+  color: #ff0084 !important;
 }
 
 #menu-social li a[href*='plus.google.com']:hover,
 #menu-social li a[href*='plus.google.com']:focus {
-  background-color: #d62408 !important;
+  color: #d62408 !important;
 }
 
 #menu-social li a[href*='skype.com']:hover,
 #menu-social li a[href*='skype.com']:focus {
-  background-color: #0bbff2 !important;
+  color: #0bbff2 !important;
 }
 
 #menu-social li a[href*='pinterest.com']:hover,
 #menu-social li a[href*='pinterest.com']:focus {
-  background-color: #c31e26 !important;
+  color: #c31e26 !important;
 }
 
 #menu-social li a[href*='linkedin.com']:hover,
 #menu-social li a[href*='linkedin.com']:focus {
-  background-color: #005987 !important;
+  color: #005987 !important;
 }
 
 #menu-social li a[href*='slideshare.net']:hover,
 #menu-social li a[href*='slideshare.net']:focus {
-  background-color: #005987 !important;
+  color: #005987 !important;
 }
 
 #menu-social li a[href*='vimeo.com']:hover,
 #menu-social li a[href*='vimeo.com']:focus {
-  background-color: #1bb6ec !important;
+  color: #1bb6ec !important;
 }
 
 #menu-social li a[href*='tumblr.com']:hover,
 #menu-social li a[href*='tumblr.com']:focus {
-  background-color: #35506b !important;
+  color: #35506b !important;
 }
 
 #menu-social li a[href*='youtube.com']:hover,
 #menu-social li a[href*='youtube.com']:focus {
-  background-color: #df3333 !important;
+  color: #df3333 !important;
 }
 
 #menu-social li a[href*='instagram.com']:hover,
 #menu-social li a[href*='instagram.com']:focus {
-  background-color: #f95b60 !important;
+  color: #f95b60 !important;
 }
 
 #menu-social li a[href*='/feed']:hover,
 #menu-social li a[href*='/feed']:focus {
-  background-color: #f39c12 !important;
+  color: #f39c12 !important;
 }
 
 #menu-social li a[href*='foursquare.com']:hover,
 #menu-social li a[href*='foursquare.com']:focus {
-  background-color: #2398c9 !important;
+  color: #2398c9 !important;
 }
 
 #menu-social li a[href*='soundcloud.com']:hover,
 #menu-social li a[href*='soundcloud.com']:focus {
-  background-color: #f50 !important;
+  color: #f50 !important;
 }
 
 #menu-social li a[href*='github.com']:hover,
 #menu-social li a[href*='github.com']:focus {
-  background-color: #4183c4 !important;
+  color: #4183c4 !important;
 }
 
 #menu-social li a[href*='gitlab.com']:hover,
 #menu-social li a[href*='gitlab.com']:focus {
-  background-color: #fc9403 !important;
+  color: #fc9403 !important;
 }
 
 #menu-social li a[href*='stackoverflow.com']:hover,
 #menu-social li a[href*='stackoverflow.com']:focus {
-  background-color: #f48024 !important;
+  color: #f48024 !important;
 }
 
 #menu-social li a[href*='xing.com']:hover,
 #menu-social li a[href*='xing.com']:focus {
-  background-color: #006567 !important;
+  color: #006567 !important;
 }
 
 #menu-social li a[href*='spotify.com']:hover,
 #menu-social li a[href*='spotify.com']:focus {
-  background-color: #81b71a !important;
+  color: #81b71a !important;
 }
 
 #menu-social li a[href*='mailto']:hover,
 #menu-social li a[href*='mailto']:focus {
-  background-color: #da4453 !important;
+  color: #da4453 !important;
 }
 
 #menu-social li a[href*='t.me']:hover,
 #menu-social li a[href*='t.me']:focus,
 #menu-social li a[href*='telegram.me']:hover,
 #menu-social li a[href*='telegram.me']:focus {
-  background-color: #0088cc !important;
+  color: #0088cc !important;
 }
 
 #menu-social li,
@@ -2419,8 +2397,7 @@ p.logged-in-as {
 
 #menu-social li a[href*='facebook.com']:before {
   font-family: 'Font Awesome 6 Brands';
-  content: '\f39e';
-  font-weight: 900;
+  content: '\f082';
 }
 
 #menu-social li a[href*='github.com']:before {
