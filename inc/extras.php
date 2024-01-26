@@ -511,8 +511,8 @@ if ( ! function_exists( 'sparkling_paging_nav' ) ) {
 	function sparkling_paging_nav() {
 		the_posts_pagination(
 			array(
-				'prev_text' => '<i class="fa fa-chevron-left"></i> ' . __( 'Newer posts', 'sparkling' ),
-				'next_text' => __( 'Older posts', 'sparkling' ) . ' <i class="fa fa-chevron-right"></i>',
+				'prev_text' => '<i class="fa fa-chevron-left"></i> ' . __( '<span>Newer posts</span>', 'sparkling' ),
+				'next_text' => __( '<span>Older posts</span>', 'sparkling' ) . ' <i class="fa fa-chevron-right"></i>',
 			)
 		);
 	}

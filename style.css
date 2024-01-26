@@ -1090,16 +1090,42 @@ button:focus,
 ----------------------------------------------- */
 
 .post-navigation a,
-.page-numbers,
 .pagination .prev,
 .pagination .next {
-  border: 1px solid #dadada;
-  background-color: #fff;
+  font-size: 14px;
+  font-family: 'PFDin', serif;
+  letter-spacing: 0.2em;
+}
+
+.page-numbers {
   padding: 8px 14px;
-  font-size: 12px;
-  border-radius: 4px;
-  margin: 0 0 1.5em;
-  overflow: hidden;
+}
+
+.pagination .prev,
+.pagination .next {
+  padding: 8px;
+  margin-top: -6px;
+}
+
+.pagination .prev {
+  margin-left: -8px;
+}
+
+.pagination .next {
+  margin-right: -8px;
+}
+
+@media (max-width: 767px) {
+  .pagination .prev {
+    margin-left: 0;
+  }
+  .pagination .next {
+    margin-right: 0;
+  }
+  .pagination .prev span,
+  .pagination .next span {
+    display: none;
+  }
 }
 
 .post-navigation a {
@@ -1112,14 +1138,21 @@ button:focus,
 .pagination .prev:focus,
 .pagination .next:hover,
 .pagination .next:focus {
-  color: #fff;
-  background: #FF423E;
+  color: #D81713;
   text-decoration: none;
+}
+
+.site-main [class*="navigation"] a:hover,
+.site-main [class*="navigation"] a:focus,
+.site-main [class*="navigation"] a:active {
+  background-color: transparent !important;
+  color: #D81713;
 }
 
 .pagination {
   text-transform: uppercase;
   display: block;
+  margin: 50px 0;
 }
 
 .post-navigation .nav-previous,
@@ -1139,7 +1172,14 @@ button:focus,
 }
 
 .single .nav-links {
-  margin-top: 30px;
+  margin-top: 48px;
+  margin-bottom: 48px;
+}
+
+.single .nav-links .post-title {
+  font-family: 'Bulo', sans-serif;
+  font-size: 16px;
+  letter-spacing: 0;
 }
 
 .nav > li > a {
