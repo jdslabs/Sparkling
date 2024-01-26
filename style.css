@@ -146,7 +146,7 @@ textarea {
   font-size: 100%; /* Corrects font size not being inherited in all browsers */
   margin: 0; /* Addresses margins set differently in IE6/7, F3/4, S5, Chrome */
   vertical-align: baseline; /* Improves appearance and consistency in all browsers */
-  *vertical-align: middle; /* Improves appearance and consistency in all browsers */
+  vertical-align: middle; /* Improves appearance and consistency in all browsers */
 }
 
 input[type='checkbox'],
@@ -182,7 +182,7 @@ input[type='search'],
 textarea {
   color: #1D1D28;
   border: 1px solid #E5E6E8;
-  border-radius: 3px;
+  box-shadow: none;
 }
 
 input[type='text']:focus,
@@ -193,6 +193,8 @@ input[type='password']:focus,
 input[type='search']:focus,
 textarea:focus {
   color: #1D1D28;
+  border-color: #a3a5a7;
+  outline: 0;
 }
 
 input[type='text'],
@@ -201,12 +203,12 @@ input[type='tel'],
 input[type='url'],
 input[type='password'],
 input[type='search'] {
-  padding: 3px;
+  padding: 8px;
 }
 
 textarea {
   overflow: auto; /* Removes default vertical scrollbar in IE6/7/8/9 */
-  padding-left: 3px;
+  padding: 8px;
   vertical-align: top; /* Improves readability and alignment in all browsers */
   width: 100%;
 }
@@ -1245,10 +1247,8 @@ button:focus,
   border: none;
 }
 
-.navbar-default .navbar-nav > .active > a,
+
 .navbar-default .navbar-nav > .active > .caret,
-.navbar-default .navbar-nav > .active > a:hover,
-.navbar-default .navbar-nav > .active > a:focus,
 .navbar-default .navbar-nav > li > a:hover,
 .navbar-default .navbar-nav > li:hover > a,
 .navbar-default .navbar-nav > li > a:focus,
@@ -1261,10 +1261,16 @@ button:focus,
   background-color: transparent;
 }
 
+.navbar-default .navbar-nav > .active > a,
+.navbar-default .navbar-nav > .active > a:hover,
+.navbar-default .navbar-nav > .active > a:focus {
+  color: #ffffff;
+  background-color: transparent;
+}
+
 .navbar-default .navbar-nav .dropdown-menu > li:hover,
 .navbar-default .navbar-nav .dropdown-menu > li:focus-within {
   color: #fff;
-  /*background-color: transparent;*/
   background-color: #FF423E;
 }
 
