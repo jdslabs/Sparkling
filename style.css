@@ -106,32 +106,32 @@ h6,
 
 h1,
 .h1 {
-  font-size: 28px;
+  font-size: 32px;
 }
 
 h2,
 .h2 {
-  font-size: 24px;
+  font-size: 28px;
 }
 
 h3,
 .h3 {
-  font-size: 20px;
+  font-size: 22px;
 }
 
 h4,
 .h4 {
-  font-size: 16px;
+  font-size: 18px;
 }
 
 h5,
 .h5 {
-  font-size: 14px;
+  font-size: 16px;
 }
 
 h6,
 .h6 {
-  font-size: 13px;
+  font-size: 14px;
 }
 
 img {
@@ -388,7 +388,7 @@ footer.entry-meta {
 .entry-title {
   color: #1D1D28;
   font-family: 'Bulo', sans-serif;
-  font-size: 32px;
+  font-size: 36px;
   font-weight: 900;
   margin-bottom: 14px;
 }
