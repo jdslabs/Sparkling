@@ -667,7 +667,7 @@ object {
 
 #secondary .widget {
   margin-bottom: 48px;
-  color: #AFAFBC;
+  color: #4e4e5e;
   overflow: hidden;
 }
 
@@ -688,6 +688,7 @@ object {
 #secondary .widget_recent_comments ul li:before {
   font-family: 'Font Awesome 6 Free';
   margin-right: 10px;
+  color: #AFAFBC;
 }
 
 #secondary .widget_archive ul li:before {
@@ -735,7 +736,7 @@ object {
 }
 
 #secondary .widget a {
-  color: #AFAFBC;
+  color: #4e4e5e;
 }
 
 .widget ul ul {
