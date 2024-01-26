@@ -19,6 +19,11 @@
 		<?php if ( is_active_sidebar( 'footer-widget-1' ) ) : ?>
 		<div class="col-sm-4 footer-widget" role="complementary">
 			<?php dynamic_sidebar( 'footer-widget-1' ); ?>
+			<?php
+					if ( of_get_option( 'footer_social' ) ) {
+						sparkling_social_icons();
+					}
+			?>
 		</div><!-- .widget-area .first -->
 		<?php endif; ?>
 
@@ -29,7 +34,7 @@
 		<?php endif; ?>
 
 		<?php if ( is_active_sidebar( 'footer-widget-3' ) ) : ?>
-		<div class="col-sm-4 footer-widget" role="complementary">
+		<div class="col-sm-4<?php if ( !is_active_sidebar( 'footer-widget-2' ) ) : ?> col-sm-push-4<?php endif; ?> footer-widget" role="complementary">
 			<?php dynamic_sidebar( 'footer-widget-3' ); ?>
 		</div><!-- .widget-area .third -->
 		<?php endif; ?>
