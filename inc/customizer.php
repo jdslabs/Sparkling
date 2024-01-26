@@ -371,10 +371,10 @@ function sparkling_customizer( $wp_customize ) {
 	);
 	// Typography Defaults
 	$typography_defaults = array(
-		'size'  => '16px',
+		'size'  => '18px',
 		'face'  => 'Bulo',
 		'style' => 'normal',
-		'color' => '#4E4E5E',
+		'color' => '#000000',
 	);
 
 	// Typography Options
@@ -425,7 +425,7 @@ function sparkling_customizer( $wp_customize ) {
 	);
 	$wp_customize->add_setting(
 		'sparkling[main_body_typography][color]', array(
-			'default'           => sanitize_hex_color( '#4e4e5e' ),
+			'default'           => sanitize_hex_color( '#000000' ),
 			'type'              => 'option',
 			'sanitize_callback' => 'sparkling_sanitize_hexcolor',
 		)
