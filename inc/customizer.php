@@ -224,7 +224,7 @@ function sparkling_customizer( $wp_customize ) {
 
 	$wp_customize->add_setting(
 		'sparkling[element_color_hover]', array(
-			'default'           => sanitize_hex_color( '#363636' ),
+			'default'           => sanitize_hex_color( '#d81713' ),
 			'type'              => 'option',
 			'sanitize_callback' => 'sparkling_sanitize_hexcolor',
 		)
@@ -371,10 +371,10 @@ function sparkling_customizer( $wp_customize ) {
 	);
 	// Typography Defaults
 	$typography_defaults = array(
-		'size'  => '14px',
-		'face'  => 'Open Sans',
+		'size'  => '16px',
+		'face'  => 'Bulo',
 		'style' => 'normal',
-		'color' => '#6B6B6B',
+		'color' => '#4E4E5E',
 	);
 
 	// Typography Options
@@ -425,7 +425,7 @@ function sparkling_customizer( $wp_customize ) {
 	);
 	$wp_customize->add_setting(
 		'sparkling[main_body_typography][color]', array(
-			'default'           => sanitize_hex_color( '#6B6B6B' ),
+			'default'           => sanitize_hex_color( '#4e4e5e' ),
 			'type'              => 'option',
 			'sanitize_callback' => 'sparkling_sanitize_hexcolor',
 		)
@@ -455,7 +455,7 @@ function sparkling_customizer( $wp_customize ) {
 
 	$wp_customize->add_setting(
 		'sparkling[heading_color]', array(
-			'default'           => sanitize_hex_color( '#444' ),
+			'default'           => sanitize_hex_color( '#201f22' ),
 			'type'              => 'option',
 			'sanitize_callback' => 'sparkling_sanitize_hexcolor',
 		)
@@ -487,7 +487,7 @@ function sparkling_customizer( $wp_customize ) {
 	);
 	$wp_customize->add_setting(
 		'sparkling[link_hover_color]', array(
-			'default'           => sanitize_hex_color( '#DADADA' ),
+			'default'           => sanitize_hex_color( '#d81713' ),
 			'type'              => 'option',
 			'sanitize_callback' => 'sparkling_sanitize_hexcolor',
 		)
@@ -657,7 +657,7 @@ function sparkling_customizer( $wp_customize ) {
 	);
 	$wp_customize->add_setting(
 		'sparkling[footer_widget_bg_color]', array(
-			'default'           => sanitize_hex_color( '#313233' ),
+			'default'           => sanitize_hex_color( '#1F1F22' ),
 			'type'              => 'option',
 			'sanitize_callback' => 'sparkling_sanitize_hexcolor',
 		)
@@ -689,7 +689,7 @@ function sparkling_customizer( $wp_customize ) {
 
 	$wp_customize->add_setting(
 		'sparkling[footer_text_color]', array(
-			'default'           => sanitize_hex_color( '#999' ),
+			'default'           => sanitize_hex_color( '#AFAFBC' ),
 			'type'              => 'option',
 			'sanitize_callback' => 'sparkling_sanitize_hexcolor',
 		)
@@ -705,7 +705,7 @@ function sparkling_customizer( $wp_customize ) {
 
 	$wp_customize->add_setting(
 		'sparkling[footer_link_color]', array(
-			'default'           => sanitize_hex_color( '#DADADA' ),
+			'default'           => sanitize_hex_color( '#AFAFBC' ),
 			'type'              => 'option',
 			'sanitize_callback' => 'sparkling_sanitize_hexcolor',
 		)
