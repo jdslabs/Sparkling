@@ -53,7 +53,7 @@ body {
   background-color: #f2f2f2;
   word-wrap: break-word;
   font-family: 'Bulo', sans-serif;
-  line-height: 1.2;
+  line-height: 1.4;
   font-size: 16px;
 }
 
@@ -326,6 +326,9 @@ textarea {
 
 .hentry {
   margin: 0;
+  overflow: hidden;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 .byline,
@@ -495,8 +498,11 @@ body.blog .post-inner-content,
 .comment-author .fn,
 .author-bio h4,
 .comment-reply-title {
-  text-transform: uppercase;
+  font-size: 16px;
   font-weight: 700;
+  color: #1D1D28;
+  display: inline-block;
+  margin-bottom: 4px;
 }
 
 #bbp-single-user-details #bbp-user-avatar img.avatar {
@@ -776,10 +782,15 @@ object {
 }
 
 .btn.btn-default {
+  font-family: 'PFDin', serif;
+  font-weight: bold;
+  letter-spacing: 0.2em;
+  color: #ffffff;
   height: 40px;
   border-radius: 0;
   display: inline-flex;
   align-items: center;
+  border-radius: 2px;
 }
 
 .btn.btn-default:focus {
@@ -790,6 +801,11 @@ object {
 
 .btn.btn-default .glyphicon {
   top: 0;
+}
+
+.form-submit .btn.btn-default {
+  padding: 12px 17px 12px 18px;
+  margin-top: 20px;
 }
 
 /* Custom Category Widget */
@@ -863,7 +879,7 @@ object {
 }
 
 .tagcloud a {
-  padding: 6px 7px;
+  padding: 7px 7px 6px;
   margin-right: 0;
   margin-bottom: 4px;
   line-height: 100%;
@@ -879,6 +895,11 @@ object {
 .tagcloud a:focus {
   background-color: #da4453;
   border-color: #da4453;
+}
+
+.tagcloud a {
+  margin-left: 0;
+  margin-right: 4px;
 }
 
 /* Archives widget */
@@ -1593,6 +1614,10 @@ button:focus,
 /* =Comments
 ----------------------------------------------- */
 
+.comments-area {
+  margin-top: 48px;
+}
+
 .comment-content a {
   word-wrap: break-word;
 }
@@ -1635,9 +1660,8 @@ p.logged-in-as {
   margin-top: 2em;
   padding-left: 100px;
   position: relative;
-  border: 1px solid #e8e8e8;
-  border-bottom: 1px solid #dadada;
-  border-radius: 4px;
+  border-radius: 2px;
+  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 .comment-list .children {
@@ -1671,9 +1695,12 @@ p.logged-in-as {
 }
 
 .comment-metadata {
-  font-size: 11px;
-  line-height: 16px;
+  font-size: 10px;
+  line-height: 1;
   margin-bottom: 10px;
+  font-family: 'PFDin', serif;
+  text-transform: uppercase;
+  letter-spacing: 0.2em;
 }
 
 .comment-reply-link {
@@ -1705,7 +1732,7 @@ p.logged-in-as {
 }
 
 .comment-reply-title {
-  font-size: 14px;
+  font-size: 18px;
 }
 
 .comment-reply-link {
@@ -2784,12 +2811,22 @@ table#wp-calendar {
 
 .no-js #submit,
 .no-js .tagcloud,
-.no-js .comment-reply-link,
 .no-js .widget_rss ul,
 button[type='submit'],
 .no-js .postform,
 .no-js table#wp-calendar {
   display: block;
+}
+
+.no-js .comment-reply-link {
+  font-family: 'PFDin', serif;
+  font-size: 12px;
+  letter-spacing: 0.2em;
+  font-weight: bold;
+  margin-top: 12px;
+  padding: 12px 14px 10px;
+  border-radius: 2px;
+  height: 36px;
 }
 
 /* WooCommerce Support */
