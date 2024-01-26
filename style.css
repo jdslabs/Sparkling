@@ -326,9 +326,6 @@ textarea {
 
 .hentry {
   margin: 0;
-  overflow: hidden;
-  border-radius: 2px;
-  box-shadow: 2px 2px 4px 0px rgba(0, 0, 0, 0.05);
 }
 
 .byline,
@@ -469,6 +466,7 @@ hr.section-divider {
   margin-bottom: 50px;
 }
 
+.post-wrap,
 .blog-item-wrap {
   border-radius: 2px;
   overflow: hidden;
@@ -479,12 +477,6 @@ hr.section-divider {
   padding: 40px 40px 48px;
   background-color: #fff;
   border: 0;
-}
-
-body.archive .post-inner-content,
-body.blog .post-inner-content,
-.post-inner-content:first-child {
-  border-top: 1px solid #dadada;
 }
 
 .entry-title {
