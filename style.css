@@ -2085,7 +2085,7 @@ p.logged-in-as {
   background-color: transparent;
 }
 
-.scroll-to-top {
+#footer-area a.scroll-to-top {
   background: #363636;
   background: rgba(100, 100, 100, 0.4);
   color: #fff;
@@ -2106,9 +2106,13 @@ p.logged-in-as {
   transition: background-color 0.3s linear;
 }
 
-.scroll-to-top:hover,
-.scroll-to-top:focus {
-  background: #FF423E !important;
+#footer-area a.scroll-to-top .fa {
+  transform: translate3d(0, 2px, 0);
+}
+
+#footer-area a.scroll-to-top:hover,
+#footer-area a.scroll-to-top:focus {
+  background: #1D1D28 !important;
   opacity: 0.8;
 }
 
