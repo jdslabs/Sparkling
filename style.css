@@ -340,6 +340,13 @@ textarea {
   margin: 1.5em 0 0;
 }
 
+.entry-content {
+  font-size: 18px !important;
+  line-height: 1.4 !important;
+  color: #201f22 !important;
+  margin-top: 20px;
+}
+
 .page-links {
   clear: both;
   margin: 0 0 1.5em;
@@ -363,7 +370,7 @@ textarea {
 
 .entry-meta {
   color: #AFAFBC;
-  margin-bottom: 30px;
+  margin-bottom: 20px;
 }
 
 footer.entry-meta {
