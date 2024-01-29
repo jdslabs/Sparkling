@@ -90,7 +90,7 @@ module.exports = function (grunt) {
     copy: {
       build: {
         expand: true,
-        src: ['**', '!node_modules/**', '!build/**', '!readme.md', '!README.md', '!phpcs.ruleset.xml', '!Gruntfile.js', '!package.json', '!package-lock.json', '!set_tags.sh', '!sparkling.zip', '!nbproject/**'],
+        src: ['**', '!node_modules/**', '!build/**', '!readme.md', '!README.md', '!phpcs.ruleset.xml', '!Gruntfile.js', '!package.json', '!package-lock.json', '!set_tags.sh', '!jdslabs-blog-theme.zip', '!nbproject/**'],
         dest: 'build/',
       },
     },

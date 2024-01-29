@@ -1,11 +1,11 @@
 {
-  "name": "sparkling",
+  "name": "jdslabs-blog-theme",
   "main": "Gruntfile.js",
   "version": "3.0",
-  "homepage": "https://www.colorlib.com",
-  "author": "Colorlib",
+  "homepage": "https://blog.jdslabs.com/",
+  "author": "Thiago Rossener <thiago@weareferal.com>",
   "license": "GPL v3",
-  "repository": "https://github.com/puikinsh/sparkling",
+  "repository": "https://github.com/jdslabs/jdslabs-blog-theme",
   "devDependencies": {
     "grunt": "^1.0.2",
     "grunt-checktextdomain": "^1.0.1",
